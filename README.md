@@ -45,9 +45,9 @@ Digital-Footprint-Investigation/
 ├── videos/
 │   └── video.mp4
 │
-├── files/
-│   ├── photo1_metadata.txt
-│   └── video_metadata.txt
+|
+│── photo1_metadata.txt
+│── video_metadata.txt
 │
 └── screenshots/
 ```
