@@ -64,6 +64,8 @@ Install ExifTool:
 ```bash
 sudo apt install libimage-exiftool-perl -y
 ```
+<img width="557" height="319" alt="image" src="https://github.com/user-attachments/assets/fe869f37-bec8-4bbb-a03c-c4fb1152766b" />
+
 
 Verify installation:
 
@@ -79,6 +81,8 @@ Create the working directory:
 mkdir Metadata_Lab
 cd Metadata_Lab
 ```
+<img width="682" height="418" alt="image" src="https://github.com/user-attachments/assets/30a7718b-509c-4eea-9e4e-25c787ca907e" />
+
 
 Check available files:
 
