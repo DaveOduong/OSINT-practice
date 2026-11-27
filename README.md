@@ -108,6 +108,8 @@ File types to identify:
 Identifying the actual file type is important because file extensions can be changed or misleading.
 
 ### 8. Extracting Image Metadata
+<img width="511" height="630" alt="image" src="https://github.com/user-attachments/assets/4b1a568e-6979-4a33-8066-4c19d5ff5c30" />
+
 
 Examine the first JPEG image:
 
@@ -163,6 +165,8 @@ Security implications:
 - Organizations may unintentionally leak information when publishing photographs online.
 
 ### 10. Extracting Video Metadata
+<img width="491" height="643" alt="image" src="https://github.com/user-attachments/assets/62c2f938-6a00-4994-b593-2e9827921584" />
+
 
 Examine the MP4 video:
 
@@ -190,8 +194,10 @@ Examine timestamps:
 ```bash
 exiftool -time:all -a -G1 video.mp4
 ```
+<img width="672" height="458" alt="image" src="https://github.com/user-attachments/assets/d78edfc3-4e27-434f-8727-fa7f2911f568" />
 
 ### 11. Saving Metadata Results
+<img width="674" height="456" alt="image" src="https://github.com/user-attachments/assets/169110b6-6d97-442e-8d53-7516da40f667" />
 
 Export image metadata:
 
@@ -210,6 +216,8 @@ Confirm that the reports were created:
 ```bash
 ls -lh *.txt
 ```
+<img width="671" height="453" alt="image" src="https://github.com/user-attachments/assets/e9f8fa05-7bd1-40b1-8497-2ea2250751bf" />
+
 
 View the reports:
 
@@ -242,6 +250,8 @@ Compare the original and cleaned images:
 exiftool photo1.jpg
 exiftool cleaned_photo.jpg
 ```
+<img width="673" height="453" alt="image" src="https://github.com/user-attachments/assets/13836eae-7264-4c23-ac55-4335a26b66fc" />
+
 
 The original file remains unchanged. Always preserve original evidence during forensic investigations.
 
